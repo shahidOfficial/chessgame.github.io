@@ -1,0 +1,368 @@
+.body-bg
+{
+	background-color: #BFCFFF
+}
+
+.user-img
+{
+	width: 30px;
+}
+
+.user-name
+{
+	font-size: 14px;
+}
+
+.navbar
+{
+	height: 100;
+	right: 0;
+    left: auto; 
+}
+
+.navbar-list
+{
+	position: relative;
+	top: -10px;
+	
+}
+
+.navbar-list-item
+{
+	display: block;
+	float: left;
+}
+
+.beep 
+{
+	position: relative; 
+}
+ .beep:after 
+ {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    -webkit-animation: beeper 1s ease-out;
+            animation: beeper 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    opacity: 1; 
+}
+
+.beeper 
+{
+	-webkit-animation: beeper 1s ease-out;
+    animation: beeper 1s ease-out;
+	-webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+	opacity: 1; 
+}
+
+@-webkit-keyframes beeper 
+{
+	0% 
+	{
+		-webkit-transform: scale(0.1, 0.1);
+		opacity: 0.0; 
+	}
+	50% 
+	{
+		opacity: 1.0; 
+	}
+	100% 
+	{
+		-webkit-transform: scale(1.2, 1.2);
+		opacity: 0.0; 
+	} 
+}
+
+.user-menu-settings
+{
+	display: none;
+	position: absolute;
+	
+}
+
+
+
+.user-menu:hover .user-menu-settings
+{
+	display: block;
+	z-index: 100;
+	height: 350px;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+	float: left;
+	right: 0;
+    width: 300;
+    background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+.user-menu-settings-profile
+{
+	display: none;
+}
+
+.user-name:hover .user-menu-settings-profile
+{
+	display: block;
+	z-index: 100;
+	height: 208px;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+	float: left;
+	right: 0;
+    width: 300;
+    background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+.user-menu-header
+{
+	color: blue;
+	padding: 15px;
+	font-size: 12;
+	background-color: #eee;
+}
+
+.user-menu-footer
+{
+	color: blue;
+	padding: 15px;
+	font-size: 12;
+	background-color: #eee;
+}
+
+.user-menu-list
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.user-menu-list-item
+{
+	border-bottom: solid 1px #F0F4F4;
+	margin: 10;
+	display: block;
+	height: 80px;
+}
+
+.user-menu-list-item-profile
+{
+	border-bottom: solid 1px #F0F4F4;
+	margin: 10;
+	display: block;
+	height: 30px;
+}
+
+.user-menu-list-item-read
+{
+	background-color: #fff;	
+}
+
+.user-menu-list-item-unread
+{
+	background-color: #eee;
+}
+
+.user-menu-item-img
+{
+	width: 51px;
+}
+
+.user-menu-item-text
+{
+	width: 230px;
+	position: relative;
+	top: -32px;
+	left: 50px;
+	font-size: 12;
+	word-wrap: break-word;
+}
+
+.item-age
+{
+	font-family: verdana;
+	font-size: 9px;
+	color: #aaa;
+}
+
+.main-art
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -30px;
+	background-color: #fff;
+	width: 70%;
+	height: 500px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+}
+
+.login-button
+{
+	position: relative;
+	top: -22px;
+}
+
+.two-col-left
+{
+	
+	position: relative;
+	width: 40%;
+	float: left;
+	left: 50px;
+	height: 80%;
+	top: 50px;
+}
+
+.two-col-right
+{
+	position: relative;
+	width: 40%;
+	float: right;
+	left: -50px;
+	height: 80%;
+	top: 50px;
+}
+
+.btn-social 
+{
+	color: #fff;
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 4px;
+	margin: 5px 0;
+	opacity: 0.85;
+	display: inline-block;
+	font-size: 17px;
+	line-height: 20px;
+	text-decoration: none; /* remove underline from anchors */
+	text-align: center;
+	font-size: 18px;
+}
+
+.btn-social:hover 
+{
+	color: #fff;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.fb 
+{
+  background-color: #3B5998;
+}
+
+.tw 
+{
+  background-color: #55ACEE;
+}
+
+.gg 
+{
+  background-color: #dd4b39;
+}
+
+.ya 
+{
+  background-color: #701786;
+}
+
+.card
+{
+	border: solid 1px red;
+	border-radius: 10px;
+	height: 150px;
+	width: 300px;
+	position: relative;
+	text-align: center;
+	background-color: green;
+	text-decoration: none;
+}
+
+.card:hover
+{
+	opacity: 1;
+	text-decoration: none;
+}
+
+.card-quater-top-left
+{
+	top: 80px;
+	left: 120px;
+}
+
+.card-quater-top-right
+{
+	top: -70px;
+	left: 500px;
+}
+
+.timer
+{
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.card-quater-bottom-left
+{
+	top: -30px;
+	left: 120px;
+}
+
+.card-quater-bottom-right
+{
+	top: -180px;
+	left: 500px;
+}
+
+.gizmo
+{
+	position: relative;
+	top:  30px;
+	left: 100px;
+	width: 400px;
+	height: 400px;
+}
+
+.player-card-you
+{
+	position: relative;
+	top: -350px;
+	left: 570px;
+	border: solid 1px red;
+}
+
+.player-card-opponent
+{
+	position: relative;
+	top: -300px;
+	left: 570px;
+	border: solid 1px red;
+	
+}
+
+
+
+
+
+
